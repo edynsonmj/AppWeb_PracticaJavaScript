@@ -1,0 +1,18 @@
+form.invalid input:invalid,
+form.invalid select:invalid,
+form.invalid input.invalid,
+form.invalid select.invalid {
+    background-color: #FFD4D4;
+    border: 1px solid maroon;
+}
+
+input:required,
+select:required {
+    background-color: lightyellow;
+}
+.lista{
+    float:left;
+    padding-inline: 20px;
+    list-style: none;
+    width: 50%;
+}
